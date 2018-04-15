@@ -1,0 +1,34 @@
+/*
+Theme Name: Windsor Child Theme
+Theme URI: http://windsor.themerex.net/
+Description: Windsor - excellent WordPress theme with many different blog and header layouts
+Author: ThemeREX
+Author URI: http://themerex.net/
+Template: windsor
+Version: 1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
+Text Domain: windsor
+*/
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.slide_subtitle b {
+  color: #ffffff;
+  font-size: 2.125rem !important;
+  font-weight: 700; }
+
+.theme_scroll_down {
+  cursor: pointer;
+  width: 15px;
+  height: 33px;
+  display: block;
+  background: url("images/arrow-scroll.png") no-repeat 50% 0; }
+  .theme_scroll_down:after {
+    display: none; }
+
+.home .top_panel.without_bg_image {
+  margin-bottom: 0; }

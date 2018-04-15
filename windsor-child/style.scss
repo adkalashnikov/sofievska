@@ -1,0 +1,109 @@
+/*
+Theme Name: Windsor Child Theme
+Theme URI: http://windsor.themerex.net/
+Description: Windsor - excellent WordPress theme with many different blog and header layouts
+Author: ThemeREX
+Author URI: http://themerex.net/
+Template: windsor
+Version: 1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
+Text Domain: windsor
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+$dark-color: #000000;
+$light-color: #ffffff;
+$light-grayish-color: #f2f3f3;
+$danger-color: #ffcc00;
+
+$baseFontSize : 16;
+
+@function rem($pixels, $context: $baseFontSize) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1rem;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.slide_subtitle {
+  b {
+    color: $light-color;
+    font-size: rem(34) !important;
+    font-weight: 700;
+  }
+}
+
+.theme_scroll_down {
+ cursor: pointer;
+ width: 15px;
+ height: 33px;
+ display: block;
+ background: url("images/arrow-scroll.png") no-repeat 50% 0;
+
+  &:after {
+    display: none;
+  }
+}
+
+.home {
+  .top_panel {
+    &.without_bg_image {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+  $baseFontSize : 13;
+}
+
+@media (min-width: 1263px) and (max-width: 1439px) {
+  $baseFontSize : 11;
+}
+
+@media (min-width: 960px) and (max-width: 1262px) {
+  $baseFontSize : 10;
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+  $baseFontSize : 10;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  $baseFontSize : 9;
+}
+
+@media (max-width: 479px) {
+  $baseFontSize : 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
