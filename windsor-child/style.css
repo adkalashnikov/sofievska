@@ -18,7 +18,8 @@ body {
 
 .slide_subtitle b {
   color: #ffffff;
-  font-size: 2.125rem !important;
+  font-size: 3.61538rem !important;
+  line-height: 1 !important;
   font-weight: 700; }
 
 .theme_scroll_down {
@@ -32,3 +33,55 @@ body {
 
 .home .top_panel.without_bg_image {
   margin-bottom: 0; }
+
+.slider-header {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+  z-index: 2;
+  color: #fefefe;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .slider-header .slider-header-adress span {
+    display: inline-block;
+    margin-left: 30px; }
+  .slider-header .slider-header-phone {
+    margin: auto 36px auto 44px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+    .slider-header .slider-header-phone a {
+      color: inherit; }
+  .slider-header .slider-header-button {
+    color: inherit;
+    padding: 18px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: transparent !important;
+    border-radius: 50px;
+    letter-spacing: normal;
+    text-transform: none;
+    font-size: 1.23077rem;
+    line-height: 1; }
+    .slider-header .slider-header-button:hover {
+      background: #3fb9be !important; }
+
+.btn-letter {
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  width: 67px;
+  height: 67px;
+  z-index: 2; }
+  .btn-letter a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("images/btn-letter.png") no-repeat 50% 0; }
+
+.modal {
+  z-index: 99999; }

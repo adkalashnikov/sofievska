@@ -23,7 +23,6 @@
 	<div class="body_wrap">
 
 		<div class="page_wrap">
-
 			<?php
 			// Desktop header
 			get_template_part( 'templates/'.windsor_get_theme_option("header_style"));

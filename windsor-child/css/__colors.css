@@ -1745,7 +1745,7 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 .scheme_default .toc_menu_item .toc_menu_icon {
     background-color: #ffffff;
     border-color: #e7eef2;
-    color: #3fb9be
+    color: #000000
 }
 
 .scheme_default .toc_menu_item:hover .toc_menu_icon, .scheme_default .toc_menu_item_active .toc_menu_icon {
