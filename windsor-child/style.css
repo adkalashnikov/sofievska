@@ -85,3 +85,103 @@ body {
 
 .modal {
   z-index: 99999; }
+
+.scheme_default .home-section h1,
+.scheme_default .home-section h2,
+.scheme_default .home-section h3,
+.scheme_default .home-section h4,
+.scheme_default .home-section h5,
+.scheme_default .home-section h6,
+.scheme_default .home-section li,
+.scheme_default .home-section .sc_promo_descr {
+  color: #fefefe; }
+  .scheme_default .home-section h1 a,
+  .scheme_default .home-section h2 a,
+  .scheme_default .home-section h3 a,
+  .scheme_default .home-section h4 a,
+  .scheme_default .home-section h5 a,
+  .scheme_default .home-section h6 a,
+  .scheme_default .home-section li a,
+  .scheme_default .home-section .sc_promo_descr a {
+    color: #fefefe; }
+
+.scheme_default .home-section h2.sc_item_title.sc_item_title_style_default {
+  font-size: 4.30769rem;
+  font-weight: 700; }
+
+.section-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fefefe; }
+  .section-company .col-left {
+    width: 50%; }
+  .section-company .section-title {
+    font-size: 4.30769rem;
+    line-height: 1.2;
+    font-weight: 800;
+    text-transform: uppercase; }
+    .section-company .section-title:before {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 6px;
+      background: #ffcc00;
+      margin-bottom: 30px; }
+  .section-company .section-description {
+    padding: 50px 0 0 100px;
+    font-style: italic;
+    line-height: 1.1; }
+  .section-company .section-action {
+    margin-top: 65px;
+    padding-left: 100px; }
+  .section-company .text-btn {
+    color: #fefefe; }
+  .section-company .col-right {
+    width: 50%;
+    min-height: 28.2vw;
+    background: url("images/sfera-jutlobud.png") no-repeat 100% 0;
+    background-size: contain; }
+
+.section-company-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .section-company-skills .skill {
+    background: #0d101f;
+    color: #ffcc00;
+    margin-right: 15px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 42px 0 38px 0;
+    text-align: center; }
+    .section-company-skills .skill:last-child {
+      margin-right: 0; }
+  .section-company-skills .skill-totall {
+    text-transform: uppercase;
+    font-size: 1.23077rem;
+    font-weight: 700; }
+    .section-company-skills .skill-totall span {
+      font-size: 4.30769rem;
+      font-weight: 800; }
+  .section-company-skills .skill-description {
+    margin-top: 18px;
+    color: #ffffff;
+    font-size: 1.23077rem; }
+
+.text-btn {
+  font-weight: 800;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.23077rem;
+  padding-right: 60px;
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+  background: url("images/arrow-right.png") no-repeat 96% 50%; }
+  .text-btn:hover {
+    background-position-x: 100%; }

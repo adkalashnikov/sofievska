@@ -17,9 +17,11 @@ Text Domain: windsor
 -------------------------------------------------------------- */
 $dark-color: #000000;
 $light-color: #ffffff;
+$light-color2: #fefefe;
 $light-grayish-color: #f2f3f3;
 $danger-color: #ffcc00;
 $main-color: #3fb9be;
+$deep-blue-color: #0d101f;
 
 $baseFontSize : 16;
 
@@ -132,6 +134,127 @@ body {
 
 .modal {
   z-index: 99999;
+}
+
+.scheme_default {
+  .home-section {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    li,
+    .sc_promo_descr {
+      color: $light-color2;
+
+      a {
+        color: $light-color2;
+      }
+    }
+
+    h2.sc_item_title.sc_item_title_style_default {
+      font-size: rem(56, 13);
+      font-weight: 700;
+    }
+  }
+}
+
+.section-company {
+  display: flex;
+  color: $light-color2;
+
+  .col-left {
+    width: 50%;
+  }
+
+  .section-title {
+    font-size: rem(56, 13);
+    line-height: 1.2;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 6px;
+      background: $danger-color;
+      margin-bottom: 30px;
+    }
+  }
+
+  .section-description {
+    padding: 50px 0 0 100px;
+    font-style: italic;
+    line-height: 1.1;
+  }
+
+  .section-action {
+    margin-top: 65px;
+    padding-left: 100px;
+  }
+
+  .text-btn {
+    color: $light-color2;
+  }
+
+  .col-right {
+    width: 50%;
+    min-height: 28.2vw;
+    background: url("images/sfera-jutlobud.png") no-repeat 100% 0;
+    background-size: contain;
+  }
+}
+
+.section-company-skills {
+  display: flex;
+  justify-content: space-between;
+
+  .skill {
+    background: $deep-blue-color;
+    color: $danger-color;
+    margin-right: 15px;
+    flex: 1;
+    padding: 42px 0 38px 0;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .skill-totall {
+    text-transform: uppercase;
+    font-size: rem(16, 13);
+    font-weight: 700;
+
+    span {
+      font-size: rem(56, 13);
+      font-weight: 800;
+    }
+  }
+
+  .skill-description {
+    margin-top: 18px;
+    color: $light-color;
+    font-size: rem(16, 13);
+  }
+}
+
+.text-btn {
+  font-weight: 800;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: rem(16, 13);
+  padding-right: 60px;
+  transition: background 0.2s linear;
+  background: url("images/arrow-right.png") no-repeat 96% 50%;
+
+  &:hover {
+    background-position-x: 100%;
+  }
 }
 
 @media (min-width: 1440px) and (max-width: 1679px) {
