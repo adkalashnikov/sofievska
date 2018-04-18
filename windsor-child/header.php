@@ -13,7 +13,7 @@
 										 ?>">
 <head>
 	<?php wp_head(); ?>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800&amp;subset=cyrillic-ext" rel="stylesheet">
 </head>
 
 <body <?php	body_class(); ?>>
@@ -36,7 +36,7 @@
 			get_template_part( 'templates/header-mobile');
 			?>
 
-			<div class="page_content_wrap scheme_<?php echo esc_attr(windsor_get_theme_option('color_scheme')); ?>">
+            <div class="page_content_wrap scheme_<?php echo esc_attr(windsor_get_theme_option('color_scheme')); ?>">
 
 				<?php if (windsor_get_theme_option('body_style') != 'fullscreen') { ?>
 				<div class="content_wrap">
