@@ -22,7 +22,7 @@
 		?>
 		<div class="toc_menu_item">
 			<a href="#" class="toc_menu_description menu_mobile_description"><span class="toc_menu_description_title">
-                    <?php esc_html_e('Главное меню', 'windsor'); ?></span>
+                    <?php esc_html_e('Меню', 'windsor'); ?></span>
             </a>
 			<a class="menu_mobile_button toc_menu_icon icon-menu-2" href="#"></a>
 		</div>		
