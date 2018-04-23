@@ -176,11 +176,16 @@
                         с рационально используемой площадью для комфортной жизни.
                     </p>
 
-                    <?php echo do_shortcode('[mc4wp_form id="546"]'); ?>
+                    <?php //echo do_shortcode('[mc4wp_form id="546"]'); ?>
                 </div>
             </div>
         </div>
     </div>
+
+    <?php
+        //svg icons
+        require_once 'svg-sprite.php';
+    ?>
 
 </body>
 </html>
