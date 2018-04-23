@@ -85,7 +85,6 @@ windsor_storage_set('schemes', array(
         'colors' => array(
 
             // Whole block border and background
-            // Whole block border and background
             'bg_color'				=> '#ffffff',
             'bd_color'				=> '#c2c2c2',
 
@@ -94,7 +93,7 @@ windsor_storage_set('schemes', array(
             'text_light'			=> '#a0b2be',
             'text_dark'				=> '#13162b',
             'text_link'				=> '#000000',
-            'text_hover'			=> '#13162b',
+            'text_hover'			=> '#000000',
 
             // Alternative blocks (submenu, buttons, tabs, etc.)
             'alter_bg_color'		=> '#e7eef2',

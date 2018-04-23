@@ -1091,99 +1091,99 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 
 /* ================= BUTTON'S HOVERS ==================== */
 .scheme_default .sc_button_hover_slide_left {
-    background: linear-gradient(to right, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_slide_right {
-    background: linear-gradient(to left, #13162b 50%, #3fb9be 50%) no-repeat scroll left bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #13162b 50%, #3fb9be 50%) no-repeat scroll right top / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_dark.sc_button_hover_slide_left {
-    background: linear-gradient(to right, #3fb9be 50%, #13162b 50%) no-repeat scroll right bottom / 210% 100% #13162b !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_dark.sc_button_hover_slide_right {
-    background: linear-gradient(to left, #3fb9be 50%, #13162b 50%) no-repeat scroll left bottom / 210% 100% #13162b !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_dark.sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #3fb9be 50%, #13162b 50%) no-repeat scroll right bottom / 100% 210% #13162b !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_dark.sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #3fb9be 50%, #13162b 50%) no-repeat scroll right top / 100% 210% #13162b !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_inverse.sc_button_hover_slide_left {
-    background: linear-gradient(to right, #f0f0f0 50%, #3fb9be 50%) no-repeat scroll right bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_inverse.sc_button_hover_slide_right {
-    background: linear-gradient(to left, #f0f0f0 50%, #3fb9be 50%) no-repeat scroll left bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_inverse.sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #f0f0f0 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_inverse.sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #f0f0f0 50%, #3fb9be 50%) no-repeat scroll right top / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_hover.sc_button_hover_slide_left {
-    background: linear-gradient(to right, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_hover.sc_button_hover_slide_right {
-    background: linear-gradient(to left, #13162b 50%, #3fb9be 50%) no-repeat scroll left bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_hover.sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_hover.sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #13162b 50%, #3fb9be 50%) no-repeat scroll right top / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_alter.sc_button_hover_slide_left {
-    background: linear-gradient(to right, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_alter.sc_button_hover_slide_right {
-    background: linear-gradient(to left, #13162b 50%, #3fb9be 50%) no-repeat scroll left bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_alter.sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_alter.sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #13162b 50%, #3fb9be 50%) no-repeat scroll right top / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_alterbd.sc_button_hover_slide_left {
-    background: linear-gradient(to right, #3fb9be 50%, #dae1e5 50%) no-repeat scroll right bottom / 210% 100% #dae1e5 !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_alterbd.sc_button_hover_slide_right {
-    background: linear-gradient(to left, #3fb9be 50%, #dae1e5 50%) no-repeat scroll left bottom / 210% 100% #dae1e5 !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_alterbd.sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #3fb9be 50%, #dae1e5 50%) no-repeat scroll right bottom / 100% 210% #dae1e5 !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_style_alterbd.sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #3fb9be 50%, #dae1e5 50%) no-repeat scroll right top / 100% 210% #dae1e5 !important
+    background: #ffcc00 !important
 }
 
 .scheme_default .sc_button_hover_slide_left:hover, .scheme_default .sc_button_hover_slide_left.active, .scheme_default .ui-state-active .sc_button_hover_slide_left, .scheme_default .vc_active .sc_button_hover_slide_left, .scheme_default .vc_tta-accordion .vc_tta-panel-title:hover .sc_button_hover_slide_left, .scheme_default li.active .sc_button_hover_slide_left {
@@ -1512,15 +1512,15 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default .sc_slider_controller_titles .swiper-slide {
-    background-color: #e7eef2
+    background-color: #e6e6e6;
 }
 
 .scheme_default .sc_slider_controller_titles .swiper-slide:after {
-    background-color: #dae1e5
+    background-color: #cccccc;
 }
 
 .scheme_default .sc_slider_controller_titles .swiper-slide.swiper-slide-active {
-    background-color: #ffffff
+    background-color: #ffffff;
 }
 
 .scheme_default .sc_slider_controller_titles .sc_slider_controller_info_title {
@@ -4008,99 +4008,99 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 
 /* ================= BUTTON'S HOVERS ==================== */
 .scheme_light .sc_button_hover_slide_left {
-    background: linear-gradient(to right, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_slide_right {
-    background: linear-gradient(to left, #13162b 50%, #3fb9be 50%) no-repeat scroll left bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #13162b 50%, #3fb9be 50%) no-repeat scroll right top / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_dark.sc_button_hover_slide_left {
-    background: linear-gradient(to right, #3fb9be 50%, #13162b 50%) no-repeat scroll right bottom / 210% 100% #13162b !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_dark.sc_button_hover_slide_right {
-    background: linear-gradient(to left, #3fb9be 50%, #13162b 50%) no-repeat scroll left bottom / 210% 100% #13162b !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_dark.sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #3fb9be 50%, #13162b 50%) no-repeat scroll right bottom / 100% 210% #13162b !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_dark.sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #3fb9be 50%, #13162b 50%) no-repeat scroll right top / 100% 210% #13162b !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_inverse.sc_button_hover_slide_left {
-    background: linear-gradient(to right, #f0f0f0 50%, #3fb9be 50%) no-repeat scroll right bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_inverse.sc_button_hover_slide_right {
-    background: linear-gradient(to left, #f0f0f0 50%, #3fb9be 50%) no-repeat scroll left bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_inverse.sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #f0f0f0 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_inverse.sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #f0f0f0 50%, #3fb9be 50%) no-repeat scroll right top / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_hover.sc_button_hover_slide_left {
-    background: linear-gradient(to right, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_hover.sc_button_hover_slide_right {
-    background: linear-gradient(to left, #13162b 50%, #3fb9be 50%) no-repeat scroll left bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_hover.sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_hover.sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #13162b 50%, #3fb9be 50%) no-repeat scroll right top / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_alter.sc_button_hover_slide_left {
-    background: linear-gradient(to right, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_alter.sc_button_hover_slide_right {
-    background: linear-gradient(to left, #13162b 50%, #3fb9be 50%) no-repeat scroll left bottom / 210% 100% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_alter.sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #13162b 50%, #3fb9be 50%) no-repeat scroll right bottom / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_alter.sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #13162b 50%, #3fb9be 50%) no-repeat scroll right top / 100% 210% #3fb9be !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_alterbd.sc_button_hover_slide_left {
-    background: linear-gradient(to right, #3fb9be 50%, #f0f0f0 50%) no-repeat scroll right bottom / 210% 100% #f0f0f0 !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_alterbd.sc_button_hover_slide_right {
-    background: linear-gradient(to left, #3fb9be 50%, #f0f0f0 50%) no-repeat scroll left bottom / 210% 100% #f0f0f0 !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_alterbd.sc_button_hover_slide_top {
-    background: linear-gradient(to bottom, #3fb9be 50%, #f0f0f0 50%) no-repeat scroll right bottom / 100% 210% #f0f0f0 !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_style_alterbd.sc_button_hover_slide_bottom {
-    background: linear-gradient(to top, #3fb9be 50%, #f0f0f0 50%) no-repeat scroll right top / 100% 210% #f0f0f0 !important
+    background: #ffcc00 !important
 }
 
 .scheme_light .sc_button_hover_slide_left:hover, .scheme_light .sc_button_hover_slide_left.active, .scheme_light .ui-state-active .sc_button_hover_slide_left, .scheme_light .vc_active .sc_button_hover_slide_left, .scheme_light .vc_tta-accordion .vc_tta-panel-title:hover .sc_button_hover_slide_left, .scheme_light li.active .sc_button_hover_slide_left {

@@ -122,6 +122,9 @@ body {
   font-size: 4.30769rem;
   font-weight: 700; }
 
+.scheme_default .sc_slider_controller .swiper-slide.swiper-slide-active {
+  border-color: #ffcc00; }
+
 .section-company {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -226,31 +229,45 @@ body {
       width: 18%;
       margin-right: 1%;
       background: rgba(13, 16, 31, 0.9);
-      padding: 190px 35px 45px 35px;
+      padding: 50px 35px 45px 35px;
       text-align: center;
-      font-size: 1.23077rem;
-      background-repeat: no-repeat;
-      background-position: 50% 50px; }
+      font-size: 7.15385rem;
+      color: #ffcc00;
+      -webkit-transition: all .3s linear;
+      transition: all .3s linear; }
       .section-advantages .section-advantages-skills > div:last-child {
         margin-right: 0; }
       .section-advantages .section-advantages-skills > div .skill-description {
+        font-size: 1.23077rem;
         font-weight: 800;
         line-height: 1.2;
-        color: #ffffff; }
+        color: #ffffff;
+        margin-top: 52px; }
       .section-advantages .section-advantages-skills > div:hover {
-        background: rgba(255, 204, 0, 0.9); }
+        background-color: rgba(255, 204, 0, 0.9);
+        color: #ffffff; }
         .section-advantages .section-advantages-skills > div:hover .skill-description {
           color: #000000; }
-    .section-advantages .section-advantages-skills .skill-1 {
-      background-image: url("images/advantage1.png"); }
-    .section-advantages .section-advantages-skills .skill-2 {
-      background-image: url("images/advantage2.png"); }
-    .section-advantages .section-advantages-skills .skill-3 {
-      background-image: url("images/advantage3.png"); }
-    .section-advantages .section-advantages-skills .skill-4 {
-      background-image: url("images/advantage4.png"); }
-    .section-advantages .section-advantages-skills .skill-5 {
-      background-image: url("images/advantage5.png"); }
+
+.section-general-plan {
+  color: #fefefe; }
+
+#slider_plans_widget .wpb_heading {
+  display: none; }
+
+#slider_plans_widget .vc_tta-tab > a {
+  background: #f2f3f3;
+  border: 0;
+  color: #000000; }
+
+#slider_plans_widget .vc_tta-tab.vc_active > a {
+  background: #f2f3f3;
+  border: 0;
+  color: #ffcc00;
+  font-weight: 700; }
+
+#slider_plans_widget .vc_tta-tabs-list li:before {
+  display: none; }
 
 .text-btn {
   font-weight: 800;
@@ -272,3 +289,11 @@ body {
 .toc_menu .toc_menu_item[data-id="general-plan"] .toc_menu_icon:before {
   content: '\e940';
   font-family: "fontello"; }
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor; }
