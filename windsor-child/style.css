@@ -16,6 +16,28 @@ Text Domain: windsor
 body {
   font-family: 'Open Sans', sans-serif; }
 
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="search"],
+select,
+textarea,
+textarea.wp-editor-area {
+  -webkit-appearance: none;
+  border: 0;
+  outline: none;
+  resize: none;
+  padding: 1.46154rem 1.46154rem 1.69231rem 1.46154rem;
+  font-size: 1.07692rem;
+  font-weight: normal;
+  line-height: 1.2em; }
+
+textarea,
+textarea.wp-editor-area {
+  min-height: 90px; }
+
 .slide_subtitle b {
   color: #ffffff;
   font-size: 3.61538rem !important;
@@ -68,7 +90,7 @@ body {
     font-size: 1.23077rem;
     line-height: 1; }
     .slider-header .slider-header-button:hover {
-      background: #3fb9be !important; }
+      background: #ffcc00 !important; }
 
 .btn-letter {
   position: absolute;
@@ -297,3 +319,104 @@ body {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor; }
+
+.copyright_wrap_inner {
+  padding: 0; }
+
+.section-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .section-contacts .section-title {
+    color: #000000;
+    width: 100%;
+    margin-bottom: 60px; }
+  .section-contacts .contacts-col {
+    width: 50%;
+    padding-right: 55px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .section-contacts .col-title {
+    color: #999999;
+    font-size: 1.23077rem;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 800; }
+    .section-contacts .col-title span {
+      font-weight: 400;
+      font-style: italic;
+      text-transform: initial; }
+  .section-contacts .col-subtitle {
+    color: #000000;
+    font-size: 1.23077rem;
+    font-weight: 800;
+    margin-bottom: 40px; }
+    .section-contacts .col-subtitle span {
+      font-weight: 400; }
+
+span .wpcf7-not-valid {
+  border: 1px solid #ff0000 !important; }
+
+span.wpcf7-not-valid-tip {
+  display: none; }
+
+div.wpcf7-validation-errors {
+  display: none !important; }
+
+.contact_form {
+  max-width: 600px; }
+  .contact_form .form-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .contact_form .form-col {
+    margin-bottom: 15px; }
+    .contact_form .form-col + .form-col {
+      margin-left: 15px; }
+  .contact_form input,
+  .contact_form textarea {
+    width: 100%;
+    border-radius: 4px; }
+  .contact_form .wpcf7-submit {
+    width: auto; }
+  .contact_form textarea {
+    height: 90px;
+    margin-bottom: 15px; }
+  .contact_form div .wpcf7-submit,
+  .contact_form div .wpcf7-submit.sc_button_hover_slide_left {
+    background: #ffcc00;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1.23077rem;
+    font-weight: 800;
+    line-height: 1;
+    -webkit-box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.16);
+    box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.16);
+    padding: 22px 50px; }
+  .contact_form p {
+    margin: 0; }
+
+.form-title {
+  font-size: 1.23077rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #000000;
+  line-height: 1;
+  margin-bottom: 18px; }
+
+.scheme_side form .sc_button_hover_slide_left,
+.scheme_side form input[type="submit"] {
+  background: #ffcc00;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 1.23077rem;
+  font-weight: 800;
+  line-height: 1;
+  -webkit-box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.16);
+  box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.16);
+  padding: 22px 50px;
+  border-radius: 28px;
+  width: auto; }
