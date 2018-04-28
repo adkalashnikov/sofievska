@@ -187,5 +187,22 @@
         require_once 'svg-sprite.php';
     ?>
 
+<script>
+    jQuery(document).ready(function(a) {
+        a(".single_prod a").hover(function() {
+            a(".single_prod a").addClass("not_hov_img");
+            a(".ne_akt_obl").addClass("not_hov_img");
+            a(".block_tenni").addClass("block_tenni_cher");
+            a(this).addClass("hov_img");
+            a(this).prev().removeClass("block_tenni_cher")
+        }, function() {
+            a(".single_prod a").removeClass("not_hov_img");
+            a(this).removeClass("hov_img");
+            a(".ne_akt_obl").removeClass("not_hov_img");
+            a(".block_tenni").removeClass("block_tenni_cher")
+        })
+    });
+</script>
+
 </body>
 </html>

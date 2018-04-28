@@ -6,7 +6,8 @@ const autoprefixer = require('gulp-autoprefixer');
 
 const paths = {
     styles: [
-        '*.scss'
+        '*.scss',
+        'css/*.scss'
     ]
 };
 
