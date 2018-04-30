@@ -12,7 +12,7 @@ const paths = {
 };
 
 gulp.task('css', function() {
-    return gulp.src(paths.styles)
+    return gulp.src('*.scss')
         .pipe(sass.sync().on('error', sass.logError))
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
