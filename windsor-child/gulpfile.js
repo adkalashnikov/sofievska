@@ -6,12 +6,13 @@ const autoprefixer = require('gulp-autoprefixer');
 
 const paths = {
     styles: [
-        '*.scss'
+        '*.scss',
+        'css/*.scss'
     ]
 };
 
 gulp.task('css', function() {
-    return gulp.src('*.scss')
+    return gulp.src(paths.styles)
         .pipe(sass.sync().on('error', sass.logError))
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
