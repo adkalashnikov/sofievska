@@ -285,7 +285,7 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default body {
-    color: #3f4346;
+    color: #000000;
     background-color: #ffffff
 }
 
@@ -298,7 +298,8 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default.top_panel.with_bg_image:before {
-    background-color: rgba(255, 255, 255, 0.7)
+    /*background-color: transparent;*/
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .scheme_default .top_panel .slider_engine_revo .slide_subtitle {
@@ -431,7 +432,7 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default .menu_header_nav > li > a:hover, .scheme_default .menu_header_nav > li.sfHover > a, .scheme_default .menu_header_nav > li.current-menu-item > a, .scheme_default .menu_header_nav > li.current-menu-parent > a, .scheme_default .menu_header_nav > li.current-menu-ancestor > a, .scheme_default .menu_main_nav > li > a:hover, .scheme_default .menu_main_nav > li.sfHover > a, .scheme_default .menu_main_nav > li.current-menu-item > a, .scheme_default .menu_main_nav > li.current-menu-parent > a, .scheme_default .menu_main_nav > li.current-menu-ancestor > a {
-    color: #3fb9be
+    color: #ffcc00
 }
 
 .scheme_default .menu_main_nav > li ul {
@@ -9703,8 +9704,8 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_dark.site_footer_wrap {
-    background-color: #0e1123;
-    color: #969fa6
+    background-color: #f4f4f4;
+    color: #000000;
 }
 
 .scheme_dark.site_footer_wrap aside {
@@ -9738,15 +9739,15 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_dark .menu_footer_nav_area ul li a {
-    color: #ffffff
+    color: #000000
 }
 
 .scheme_dark .menu_footer_nav_area ul li a:hover {
-    color: #3fb9be
+    color: #ffcc00
 }
 
 .scheme_dark .menu_footer_nav_area ul li + li:before {
-    border-color: #b8c3cc
+    border-color: transparent;
 }
 
 .scheme_dark .copyright_wrap_inner {

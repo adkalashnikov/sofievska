@@ -26,6 +26,18 @@ $deep-blue-color: #0d101f;
 
 $baseFontSize : 16;
 
+.fw-700 {
+  font-weight: 700;
+}
+
+.line-height-1-2 {
+  line-height: 1.2;
+}
+
+.has-overflow {
+  overflow: visible !important;
+}
+
 @function rem($pixels, $context: $baseFontSize) {
   @if (unitless($pixels)) {
     $pixels: $pixels * 1px;
@@ -177,6 +189,53 @@ textarea.wp-editor-area {
   }
 }
 
+.section-title-md {
+  font-size: rem(36, 13);
+  line-height: 1.2;
+  font-weight: 800;
+  text-align: center;
+
+  &.light {
+    color: $light-color;
+  }
+}
+
+.section-title-sm {
+  @extend .section-title-md;
+  font-size: rem(32, 13);
+
+  &.danger {
+    color: $danger-color;
+  }
+
+  &.text-left {
+    text-align: left;
+  }
+}
+
+.styled-list {
+  display: flex;
+
+  &.light {
+    color: $light-color;
+  }
+
+  .styled-list-item {
+    font-size: rem(16, 13);
+    line-height: 1.2;
+    font-weight: 700;
+    padding-left: 24px;
+    padding-right: 50px;
+    flex-basis: 33%;
+    border-left: 4px solid $danger-color;
+
+    span {
+      font-weight: 400;
+      font-size: rem(14, 13);
+    }
+  }
+}
+
 .scheme_default {
   .home-section {
     h1,
@@ -300,6 +359,12 @@ textarea.wp-editor-area {
     display: flex;
     width: 100%;
     padding: 75px 0 0 100px;
+
+    &.dark {
+      .skill-description {
+        color: $dark-color;
+      }
+    }
 
     .skill {
       width: 25%;
@@ -568,6 +633,12 @@ div.wpcf7-validation-errors {
   margin-bottom: 18px;
 }
 
+.form-call-me {
+  input {
+    margin-bottom: 15px;
+  }
+}
+
 .scheme_side {
   form {
     .sc_button_hover_slide_left,
@@ -587,10 +658,21 @@ div.wpcf7-validation-errors {
 }
 
 .row-complex-plans {
-  min-height: 89vh;
+  min-height: calc(100vh - 130px);
 }
 
 @import "css/jks-apartments.scss";
+
+.vc_column_container {
+  &.positioned-image {
+    position: absolute;
+    right: 0;
+    top: -120px;
+    width: 380px;
+    height: 542px;
+  }
+}
+
 
 @media (min-width: 1440px) and (max-width: 1679px) {
   $baseFontSize : 13;

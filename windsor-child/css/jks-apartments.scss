@@ -727,13 +727,14 @@
             margin-top: -65px;
 
             &.row_prod_126-13-2 {
-                zoom: .76;
-                top: -128px;
+                transform: scale(.76);
+                top: -170px;
             }
 
             &.row_prod_126-16-1 {
-                zoom: .76;
-                top: 50px;
+                top: -85px;
+                margin-top: -30px;
+                transform: scale(.7);
             }
         }
 
@@ -757,7 +758,7 @@
         }
 
         .catidw10 {
-            background-image: url('/sofievska/wp-content/uploads/apartments/126_15_18.png');
+            background-image: url('/wp-content/uploads/apartments/126_15_18.png');
             background-repeat: no-repeat;
             width: 470px;
             height: 500px;
@@ -767,10 +768,13 @@
         }
 
         .catidw24 {
-            background-image: url('/sofievska/wp-content/uploads/apartments/126-17-plan.png');
+            background-image: url('/wp-content/uploads/apartments/126-17-plan.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
             width: 532px;
-            top: 142px;
-            left: 98px
+            height: 500px;
+            top: 79px;
+            left: 98px;
         }
 
         .nf-block {
@@ -1067,7 +1071,7 @@
         }
 
         .catidw11, .catidw14, .catidw18, .catidw19, .catidw9 {
-            background-image: url('/sofievska/wp-content/uploads/apartments/planirovka_126_15_7.png');
+            background-image: url('/wp-content/uploads/apartments/planirovka_126_15_7.png');
             background-position: left top;
             background-repeat: no-repeat;
             background-size: 100%;
@@ -1079,7 +1083,7 @@
         }
 
         .catidw12, .catidw20 {
-            background-image: url('/sofievska/wp-content/uploads/apartments/126_16_7.png');
+            background-image: url('/wp-content/uploads/apartments/126_16_7.png');
             background-position: left top;
             background-repeat: no-repeat;
             background-size: 100%;
@@ -1173,7 +1177,7 @@
         }
 
         .catidw15, .catidw21 {
-            background-image: url('/sofievska/wp-content/uploads/apartments/plan_126_1_10.png');
+            background-image: url('/wp-content/uploads/apartments/plan_126_1_10.png');
             background-position: left top;
             background-repeat: no-repeat;
             background-size: 100%;

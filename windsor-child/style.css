@@ -13,6 +13,15 @@ Text Domain: windsor
 */
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+.fw-700 {
+  font-weight: 700; }
+
+.line-height-1-2 {
+  line-height: 1.2; }
+
+.has-overflow {
+  overflow: visible !important; }
+
 body {
   font-family: 'Open Sans', sans-serif; }
 
@@ -121,6 +130,41 @@ textarea.wp-editor-area {
     background: #ffcc00;
     margin-bottom: 30px; }
 
+.section-title-md, .section-title-sm {
+  font-size: 2.76923rem;
+  line-height: 1.2;
+  font-weight: 800;
+  text-align: center; }
+  .section-title-md.light, .light.section-title-sm {
+    color: #ffffff; }
+
+
+.section-title-sm {
+  font-size: 2.46154rem; }
+  .section-title-sm.danger {
+    color: #ffcc00; }
+  .section-title-sm.text-left {
+    text-align: left; }
+
+.styled-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .styled-list.light {
+    color: #ffffff; }
+  .styled-list .styled-list-item {
+    font-size: 1.23077rem;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-left: 24px;
+    padding-right: 50px;
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%;
+    border-left: 4px solid #ffcc00; }
+    .styled-list .styled-list-item span {
+      font-weight: 400;
+      font-size: 1.07692rem; }
+
 .scheme_default .home-section h1,
 .scheme_default .home-section h2,
 .scheme_default .home-section h3,
@@ -221,6 +265,8 @@ textarea.wp-editor-area {
     display: flex;
     width: 100%;
     padding: 75px 0 0 100px; }
+    .section-complex .section-compex-skills.dark .skill-description {
+      color: #000000; }
     .section-complex .section-compex-skills .skill {
       width: 25%;
       margin-right: 34px;
@@ -407,6 +453,9 @@ div.wpcf7-validation-errors {
   line-height: 1;
   margin-bottom: 18px; }
 
+.form-call-me input {
+  margin-bottom: 15px; }
+
 .scheme_side form .sc_button_hover_slide_left,
 .scheme_side form input[type="submit"] {
   background: #ffcc00;
@@ -422,7 +471,7 @@ div.wpcf7-validation-errors {
   width: auto; }
 
 .row-complex-plans {
-  min-height: 89vh; }
+  min-height: calc(100vh - 130px); }
 
 .jks .product_num3,
 .jks .product_num4,
@@ -1034,11 +1083,14 @@ div.wpcf7-validation-errors {
   padding-bottom: 100px;
   margin-top: -65px; }
   .jks .row_prod_izb.row_prod_126-13-2 {
-    zoom: .76;
-    top: -128px; }
+    -webkit-transform: scale(0.76);
+    transform: scale(0.76);
+    top: -170px; }
   .jks .row_prod_izb.row_prod_126-16-1 {
-    zoom: .76;
-    top: 50px; }
+    top: -85px;
+    margin-top: -30px;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7); }
 
 .jks .vm-product-media-container {
   min-height: 170px; }
@@ -1056,7 +1108,7 @@ div.wpcf7-validation-errors {
   left: -8px; }
 
 .jks .catidw10 {
-  background-image: url("/sofievska/wp-content/uploads/apartments/126_15_18.png");
+  background-image: url("/wp-content/uploads/apartments/126_15_18.png");
   background-repeat: no-repeat;
   width: 470px;
   height: 500px;
@@ -1065,9 +1117,12 @@ div.wpcf7-validation-errors {
   left: 96px; }
 
 .jks .catidw24 {
-  background-image: url("/sofievska/wp-content/uploads/apartments/126-17-plan.png");
+  background-image: url("/wp-content/uploads/apartments/126-17-plan.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   width: 532px;
-  top: 142px;
+  height: 500px;
+  top: 79px;
   left: 98px; }
 
 .jks .nf-block {
@@ -1101,8 +1156,7 @@ div.wpcf7-validation-errors {
   width: 121px;
   margin-top: -56px; }
 
-.jks .product_num7,
-.jks .product_num9 {
+.jks .product_num7, .jks .product_num9 {
   width: 114px;
   margin-top: -56px; }
 
@@ -1320,7 +1374,7 @@ div.wpcf7-validation-errors {
   margin-top: -5px; }
 
 .jks .catidw11, .jks .catidw14, .jks .catidw18, .jks .catidw19, .jks .catidw9 {
-  background-image: url("/sofievska/wp-content/uploads/apartments/planirovka_126_15_7.png");
+  background-image: url("/wp-content/uploads/apartments/planirovka_126_15_7.png");
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -1331,7 +1385,7 @@ div.wpcf7-validation-errors {
   left: 151px; }
 
 .jks .catidw12, .jks .catidw20 {
-  background-image: url("/sofievska/wp-content/uploads/apartments/126_16_7.png");
+  background-image: url("/wp-content/uploads/apartments/126_16_7.png");
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -1412,7 +1466,7 @@ div.wpcf7-validation-errors {
   margin-left: 0; }
 
 .jks .catidw15, .jks .catidw21 {
-  background-image: url("/sofievska/wp-content/uploads/apartments/plan_126_1_10.png");
+  background-image: url("/wp-content/uploads/apartments/plan_126_1_10.png");
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -1582,3 +1636,10 @@ div.wpcf7-validation-errors {
 
 .jks .catnum13 .mark_info {
   left: -60px; }
+
+.vc_column_container.positioned-image {
+  position: absolute;
+  right: 0;
+  top: -120px;
+  width: 380px;
+  height: 542px; }

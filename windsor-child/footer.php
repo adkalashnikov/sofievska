@@ -165,18 +165,9 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Перезвоните мне!</h4>
                 </div>
                 <div class="modal-body">
-                    <p>
-                        Мой дом — моя крепость, моя территория, моя сфера жизни. Безопасность и комфорт, спокойствие и тепло, жизнь
-                        в “Софиевской  сфере”.
-
-                        Строим не просто дома, а создаём гармоничное жилое пространство
-                        с рационально используемой площадью для комфортной жизни.
-                    </p>
-
-                    <?php //echo do_shortcode('[mc4wp_form id="546"]'); ?>
+                    <?php echo do_shortcode('[contact-form-7 id="885" title="форма заказа звонка"]'); ?>
                 </div>
             </div>
         </div>
@@ -187,7 +178,7 @@
         require_once 'svg-sprite.php';
     ?>
 
-<script>
+	<script>
     jQuery(document).ready(function(a) {
         a(".single_prod a").hover(function() {
             a(".single_prod a").addClass("not_hov_img");
@@ -202,7 +193,7 @@
             a(".block_tenni").removeClass("block_tenni_cher")
         })
     });
-</script>
+	</script>
 
 </body>
 </html>
