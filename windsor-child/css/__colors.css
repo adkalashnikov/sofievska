@@ -164,12 +164,14 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 
 /*table>thead + tbody>tr:first-child>td,*//*table>tbody>tr:nth-child(2n+1)>th,*/
 .scheme_default table > tbody > tr:nth-child(2n+1) > td {
-    background-color: rgba(231, 238, 242, 0.4)
+    /*background-color: rgba(231, 238, 242, 0.4)*/
+    background-color: transparent;
 }
 
 /*table>tbody>tr:nth-child(2n)>th,*/
 .scheme_default table > tbody > tr:nth-child(2n) > td {
-    background-color: rgba(231, 238, 242, 0.2)
+    /*background-color: rgba(231, 238, 242, 0.2)*/
+    background-color: transparent;
 }
 
 .scheme_default table th a:hover {
@@ -186,7 +188,7 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default ul > li:before {
-    color: #3fb9be
+    color: #ffcc00;
 }
 
 .scheme_default fieldset {

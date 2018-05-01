@@ -62,7 +62,7 @@ textarea.wp-editor-area {
   .theme_scroll_down:after {
     display: none; }
 
-.home .top_panel.without_bg_image {
+.top_panel.without_bg_image {
   margin-bottom: 0; }
 
 .slider-header {
@@ -114,6 +114,21 @@ textarea.wp-editor-area {
     height: 100%;
     background: url("images/btn-letter.png") no-repeat 50% 0; }
 
+.btn-default {
+  background: #ffcc00;
+  color: #000000 !important;
+  text-transform: uppercase;
+  font-size: 1.23077rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.16);
+  box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.16);
+  padding: 22px 50px;
+  border-radius: 28px;
+  width: auto;
+  display: inline-block; }
+
 .modal {
   z-index: 99999; }
 
@@ -144,6 +159,12 @@ textarea.wp-editor-area {
     color: #ffcc00; }
   .section-title-sm.text-left {
     text-align: left; }
+
+.page-title {
+  font-size: 1.84615rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 40px; }
 
 .styled-list {
   display: -webkit-box;
@@ -483,6 +504,42 @@ div.wpcf7-validation-errors {
 .top_panel.with_bg_image .top_panel_title .page_caption {
   font-weight: 800;
   color: #fefefe; }
+
+.jks-table {
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  border-spacing: 0;
+  border-collapse: collapse; }
+  .jks-table tr {
+    padding: 0 18px; }
+  .jks-table td {
+    padding: 12px;
+    font-size: 1.07692rem;
+    line-height: 1;
+    background: transparent; }
+  .jks-table.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #ffffff; }
+  .jks-table.table-striped td {
+    border: 0; }
+
+.jks-list {
+  list-style: none; }
+  .jks-list li {
+    position: relative;
+    color: #999999;
+    margin-bottom: 8px;
+    font-size: 1.07692rem; }
+    .jks-list li::before {
+      content: "";
+      background: #ffcc00;
+      display: block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      position: absolute;
+      left: -20px;
+      top: 6px; }
 
 .jks .product_num3,
 .jks .product_num4,
