@@ -298,8 +298,8 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default.top_panel.with_bg_image:before {
-    /*background-color: transparent;*/
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    /*background-color: rgba(255, 255, 255, 0.5);*/
 }
 
 .scheme_default .top_panel .slider_engine_revo .slide_subtitle {

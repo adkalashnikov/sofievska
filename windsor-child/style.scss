@@ -661,6 +661,27 @@ div.wpcf7-validation-errors {
   min-height: calc(100vh - 130px);
 }
 
+.top_panel_navi {
+  padding-top: 0;
+
+  .menu_main_wrap {
+    padding: 1em 0;
+    background: $light-color;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.top_panel {
+  &.with_bg_image {
+    .top_panel_title {
+      .page_caption {
+        font-weight: 800;
+        color: $light-color2;
+      }
+    }
+  }
+}
+
 @import "css/jks-apartments.scss";
 
 .vc_column_container {
