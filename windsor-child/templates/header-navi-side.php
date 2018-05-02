@@ -7,11 +7,7 @@
  * @since WINDSOR 1.0
  */
 ?>
-<div class="menu_side_wrap scheme_<?php echo esc_attr(windsor_is_inherit(windsor_get_theme_option('menu_scheme')) 
-																	? (windsor_is_inherit(windsor_get_theme_option('header_scheme')) 
-																		? windsor_get_theme_option('color_scheme') 
-																		: windsor_get_theme_option('header_scheme')) 
-																	: windsor_get_theme_option('menu_scheme')); ?>">
+<div class="menu_side_wrap scheme_light">
 	<span class="menu_side_button icon-menu-2"></span>
 
 	<div class="menu_side_inner">
