@@ -321,3 +321,7 @@
 .icon-icon-marker:before { content: '\e93f'; } /* '' */
 .icon-icon-marker2:before { content: '\e940'; } /* '' */
 .icon-con-installment2:before { content: '\e941'; } /* '' */
+.icon-left-open:before { content: '\e942'; } /* '' */
+.icon-right-open:before { content: '\e943'; } /* '' */
+.icon-down-open:before { content: '\e944'; } /* '' */
+.icon-up-open:before { content: '\e945'; } /* '' */

@@ -321,3 +321,7 @@
 .icon-icon-marker { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe93f;&nbsp;'); }
 .icon-icon-marker2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe940;&nbsp;'); }
 .icon-con-installment2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe941;&nbsp;'); }
+.icon-left-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe942;&nbsp;'); }
+.icon-right-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe943;&nbsp;'); }
+.icon-down-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe944;&nbsp;'); }
+.icon-up-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe945;&nbsp;'); }
