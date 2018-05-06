@@ -767,6 +767,47 @@ div.wpcf7-validation-errors {
   }
 }
 
+.menu_footer_nav_area {
+  ul {
+    li{
+      font-size: 12px;
+      font-weight: 400;
+
+      &+li:before {
+        margin: 0 12px;
+      }
+    }
+  }
+
+  a {
+    font-size: 14px;
+  }
+}
+
+.site_footer_wrap {
+  margin-top: 0;
+}
+
+.menu_footer_wrap_inner {
+  padding: 12px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-phone {
+  a {
+    font-weight: 700;
+    color: $dark-color;
+    font-size: 20px;
+
+    &:hover {
+      color: $danger-color;
+    }
+  }  
+}
 
 @media (min-width: 1440px) and (max-width: 1679px) {
   $baseFontSize : 13;

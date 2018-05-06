@@ -78,13 +78,13 @@
 					</div><!-- /.footer_wrap -->
 				<?php
 				}
-	
+
 				// Logo
 				if (windsor_is_on(windsor_get_theme_option('logo_in_footer'))) {
 					$windsor_logo_image = '';
 					if (windsor_get_retina_multiplier(2) > 1)
 						$windsor_logo_image = windsor_get_theme_option( 'logo_footer_retina' );
-					if (empty($windsor_logo_image)) 
+					if (empty($windsor_logo_image))
 						$windsor_logo_image = windsor_get_theme_option( 'logo_footer' );
 					$windsor_logo_text   = get_bloginfo( 'name' );
 					if (!empty($windsor_logo_image) || !empty($windsor_logo_text)) {
@@ -115,22 +115,28 @@
 					</div>
 					<?php
 				}
-				
-				// Footer menu
-				$windsor_menu_footer = windsor_get_nav_menu('menu_footer');
-				if (!empty($windsor_menu_footer)) {
-					?>
-					<div class="menu_footer_wrap">
-						<div class="menu_footer_wrap_inner">
-							<nav class="menu_footer_nav_area"><?php windsor_show_layout($windsor_menu_footer); ?></nav>
-						</div>
-					</div>
-					<?php
-				}
-				
+
+                // Footer menu
+                $windsor_menu_footer = windsor_get_nav_menu('menu_footer');
+                if (!empty($windsor_menu_footer) && !is_front_page()) {
+                    ?>
+                    <div class="content_wrap">
+                        <div class="menu_footer_wrap">
+                            <div class="menu_footer_wrap_inner">
+                                <a class="footer-logo" href="/"><img src="<?php echo get_stylesheet_directory_uri();?>/images/logo-footer.png" alt="" width="110" height="50"></a>
+                                <nav class="menu_footer_nav_area"><?php windsor_show_layout($windsor_menu_footer); ?></nav>
+                                <div class="footer-phone">
+                                    <a href="tel:+380969005500">096 900 55 00</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                }
+
 				// Copyright area
 				$windsor_copyright_scheme = windsor_is_inherit(windsor_get_theme_option('copyright_scheme')) ? $windsor_footer_scheme : windsor_get_theme_option('copyright_scheme');
-				?> 
+				?>
 				<div class="copyright_wrap scheme_<?php echo esc_attr($windsor_copyright_scheme); ?>">
 					<div class="copyright_wrap_inner">
 						<div class="content_wrap">
@@ -194,6 +200,5 @@
         })
     });
 	</script>
-
 </body>
 </html>
