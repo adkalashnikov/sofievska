@@ -7,11 +7,10 @@ echo esc_attr(windsor_get_theme_option('color_scheme'));
     <?php wp_head(); ?>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800&amp;subset=cyrillic-ext"
           rel="stylesheet">
-    <link rel="stylesheet" href="/sofievska/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.4.1">
-    <link rel="stylesheet" id="windsor-child-css" href="http://kden.tk/sofievska/wp-content/themes/windsor-child/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.4.1">
+    <link rel="stylesheet" id="windsor-child-css" href="/wp-content/themes/windsor-child/style.css" type="text/css" media="all">
     <style>
-        .top_panel,
-        .site_footer_wrap {
+        .top_panel {
             display: none;
         }
 
@@ -69,6 +68,9 @@ echo esc_attr(windsor_get_theme_option('color_scheme'));
                                                                     <div class="page-title">
                                                                         <?php  the_title(); ?>
                                                                     </div>
+                                                                    <div class="page-back-link">
+                                                                        <a href="/#complex-advantages" class="toc_menu_icon icon-left-open">вернутся к плану</a>
+                                                                    </div>
                                                                 </div>
                                                             </div>
 
@@ -86,8 +88,7 @@ echo esc_attr(windsor_get_theme_option('color_scheme'));
                                                                 <div class="wpb_wrapper">
                                                                     <button class="btn-default sc_button_hover_slide_left"
                                                                             data-toggle="modal"
-                                                                            data-target="#modalCallMe">Записаться на
-                                                                        просмотр
+                                                                            data-target="#modalCallMe">Записаться на просмотр
                                                                     </button>
                                                                 </div>
                                                             </div>

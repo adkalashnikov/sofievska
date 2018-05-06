@@ -1458,15 +1458,21 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default .slider_swiper.slider_controls_side .slider_controls_wrap > a, .scheme_default .slider_outer_controls_side .slider_controls_wrap > a {
-    color: #3fb9be;
-    background-color: #13162b;
-    border-color: #13162b
+    color: #000000;
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+    transition: all 0.3s ease;
 }
 
-.scheme_default .slider_swiper.slider_controls_side .slider_controls_wrap > a:hover, .scheme_default .slider_outer_controls_side .slider_controls_wrap > a:hover {
+.scheme_default .slider_swiper.slider_controls_side .slider_controls_wrap > a:hover,
+.scheme_default .slider_outer_controls_side .slider_controls_wrap > a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000
+}
+
+.scheme_default .slider_outer_controls_side .slider_controls_wrap > a:hover .slider_controls_label {
     color: #f0f0f0;
-    background-color: #3fb9be;
-    border-color: #3fb9be
 }
 
 .scheme_default .slider_swiper.slider_controls_bottom .slider_controls_wrap > a, .scheme_default .slider_outer_controls_bottom .slider_controls_wrap > a {
@@ -1499,7 +1505,7 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default .slider_style_modern .slider_controls_label {
-    color: #ffffff
+    color: #000000
 }
 
 .scheme_default .slider_style_modern .slider_pagination_wrap {
@@ -1507,7 +1513,7 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default .slider_style_modern .swiper-pagination-current {
-    color: #13162b
+    color: #ffffff;
 }
 
 .scheme_default .sc_slider_controller .swiper-slide.swiper-slide-active {
@@ -9181,11 +9187,11 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_dark .menu_header_nav > li > a, .scheme_dark .menu_main_nav > li > a {
-    color: #ffffff
+    color: #13162b
 }
 
 .scheme_dark .menu_header_nav > li > a:hover, .scheme_dark .menu_header_nav > li.sfHover > a, .scheme_dark .menu_header_nav > li.current-menu-item > a, .scheme_dark .menu_header_nav > li.current-menu-parent > a, .scheme_dark .menu_header_nav > li.current-menu-ancestor > a, .scheme_dark .menu_main_nav > li > a:hover, .scheme_dark .menu_main_nav > li.sfHover > a, .scheme_dark .menu_main_nav > li.current-menu-item > a, .scheme_dark .menu_main_nav > li.current-menu-parent > a, .scheme_dark .menu_main_nav > li.current-menu-ancestor > a {
-    color: #3fb9be
+    color: #ffcc00
 }
 
 .scheme_dark .menu_main_nav > li ul {
