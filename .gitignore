@@ -4,4 +4,4 @@
 out
 gen
 windsor/
-windsor-child/node_modules/
+*node_modules/
