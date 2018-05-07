@@ -201,9 +201,9 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default input[type="text"], .scheme_default input[type="number"], .scheme_default input[type="email"], .scheme_default input[type="tel"], .scheme_default input[type="search"], .scheme_default input[type="password"], .scheme_default .widget_search form, .scheme_default .select_container, .scheme_default .select_container:before, .scheme_default .select2-container .select2-choice, .scheme_default .select2-container .select2-selection, .scheme_default textarea, .scheme_default textarea.wp-editor-area {
-    color: #8b9ba6;
-    border-color: #f4f9fc;
-    background-color: #f4f9fc
+    color: #666666;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 .scheme_default .select_container select {
@@ -211,13 +211,13 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_default input[type="text"]:focus, .scheme_default input[type="number"]:focus, .scheme_default input[type="email"]:focus, .scheme_default input[type="tel"]:focus, .scheme_default input[type="search"]:focus, .scheme_default input[type="password"]:focus, .scheme_default .select_container:hover, .scheme_default .select_container:before:hover, .scheme_default select option:hover, .scheme_default select option:focus, .scheme_default .select2-container .select2-choice:hover, .scheme_default .select2-container .select2-selection:hover, .scheme_default textarea:focus, .scheme_default textarea.wp-editor-area:focus {
-    color: #76838c;
-    border-color: #dae9f2;
-    background-color: #ebf4fa
+    color: #666666;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 .scheme_default .select_container select:focus {
-    color: #76838c;
+    color: #666666;
     border-color: #dae9f2
 }
 

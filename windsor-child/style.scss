@@ -68,8 +68,8 @@ textarea.wp-editor-area {
   border: 0;
   outline: none;
   resize: none;
-  padding: rem(19, 13) rem(19, 13) rem(22, 13) rem(19, 13);
-  font-size: rem(14, 13);
+  padding: 20px;
+  font-size: 14px;
   font-weight:normal;
   line-height: 1.2em;
 }
@@ -185,6 +185,77 @@ textarea.wp-editor-area {
 
 .modal {
   z-index: 99999;
+
+  .modal-dialog {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 420px;
+    position: fixed;
+  }
+
+  .modal-body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+  }
+
+  .modal-content {
+    border-radius: 0;
+    height: 100%;
+
+    .close {
+      top: 10px;
+      right: 10px;
+      background: transparent !important;
+      color: $grayish-color;
+      font-size: 32px;
+
+      &:hover {
+        color: $dark-color;
+        background: transparent !important;
+        border: none;
+      }
+    }
+  }
+
+  .form-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: $dark-color;
+    line-height: 1;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .contact_form {
+    .form-row {
+      display: block;
+    }
+
+    .form-col {
+      margin-bottom: 10px;
+
+      + .form-col {
+        margin-left: 0;
+      }
+    }
+
+    .wpcf7-submit {
+      width: auto;
+      display: block;
+      margin: 0 auto 18px auto;
+      font-size: 16px;
+    }
+  }
+}
+
+.modal-dialog {
+  margin: 0;
 }
 
 .section-title {
@@ -206,6 +277,12 @@ textarea.wp-editor-area {
 .promo-title-wrapper {
   .sc_item_title {
     @extend .section-title;
+  }
+
+  &.light {
+    .sc_item_title {
+      color: $light-color;
+    }
   }
   
   &.aligned-center {
@@ -645,6 +722,13 @@ div.wpcf7-validation-errors {
 
   .wpcf7-submit {
     width: auto;
+    display: block;
+    margin: 0 0 18px 0;
+    border-radius: 30px;
+    box-shadow: -6px 4px 16px rgba(0, 0, 0, 0.16);
+    padding: 16px 60px;
+    color: $dark-color !important;
+    font-weight: 700;
   }
 
   textarea {
