@@ -727,20 +727,17 @@ div.wpcf7-validation-errors {
   background-color: #fff;
   position: absolute;
   z-index: 100;
-  padding: 25px;
-  width: 210px;
+  padding: 10px;
+  width: 180px;
   top: 20px;
   right: -100px;
-  -webkit-box-shadow: 0 0 5px #000;
-  box-shadow: 0 0 5px #000;
-  color: #000;
-  border-radius: 5px;
-  line-height: 1.2; }
+  -webkit-box-shadow: 0 0 3px #000;
+  box-shadow: 0 0 3px #000;
+  color: #000; }
 
 .jks .product_num1 .tov_izb_info strong {
   display: block;
   font-size: 16px;
-  line-height: 1.2;
   border-bottom: 1px dashed #000;
   padding-bottom: 2px;
   margin-bottom: 2px;
@@ -750,8 +747,8 @@ div.wpcf7-validation-errors {
   display: none; }
 
 .jks .info_info {
+  font-style: italic;
   font-size: 12px;
-  line-height: 1.4;
   margin-top: 7px;
   color: #000; }
 
@@ -1038,93 +1035,93 @@ div.wpcf7-validation-errors {
 
 .jks .product_num95 {
   float: left;
-  width: 216px;
+  width: 20.377%;
   margin-top: 29px; }
 
 .jks .product_num96 {
   float: left;
-  width: 273px;
-  margin-top: -43px;
-  margin-left: -106px; }
+  width: 25.754%;
+  margin-top: -21px;
+  margin-left: -72px; }
 
 .jks .product_num97 {
   float: left;
-  width: 221px;
-  margin-top: -43px;
-  margin-left: 227px; }
+  width: 20.849%;
+  margin-top: -21px;
+  margin-left: 156px; }
 
 .jks .product_num98 {
   float: left;
-  width: 297px;
-  margin-top: -19px;
-  margin-left: -69px; }
+  width: 28.018%;
+  margin-top: -5px;
+  margin-left: -48px; }
 
 .jks .product_num99 {
   float: right;
-  width: 244px;
-  margin-top: -8px; }
+  width: 23.018%;
+  margin-top: -6px; }
 
 .jks .product_num100 {
   float: right;
-  width: 200px;
-  margin-top: -8px; }
+  width: 18.867%;
+  margin-top: -6px; }
 
 .jks .product_num101 {
   float: right;
-  width: 200px;
-  margin-top: -8px; }
+  width: 18.867%;
+  margin-top: -6px; }
 
 .jks .product_num102 {
   float: right;
-  width: 200px;
-  margin-top: -24px; }
+  width: 18.867%;
+  margin-top: -17px; }
 
 .jks .product_num103 {
   float: left;
-  width: 226px;
+  width: 21.320%;
   margin-top: 52px; }
 
 .jks .product_num104 {
   float: left;
-  width: 222px;
-  margin-top: 29px; }
+  width: 20.943%;
+  margin-top: 36px; }
 
 .jks .product_num105 {
   float: left;
-  width: 222px;
-  margin-top: 29px;
-  margin-left: 161px; }
+  width: 20.943%;
+  margin-top: 36px;
+  margin-left: 111px; }
 
 .jks .product_num106 {
   float: left;
-  width: 298px;
+  width: 28.113%;
   margin-top: 52px;
-  margin-left: -69px; }
+  margin-left: -48px; }
 
 .jks .product_num107 {
   float: right;
-  width: 244px;
+  width: 23.018%;
   margin-top: -1px; }
 
 .jks .product_num108 {
   float: right;
-  width: 200px;
+  width: 18.867%;
   margin-top: -1px; }
 
 .jks .product_num109 {
   float: right;
-  width: 202px;
+  width: 19.056%;
   margin-top: -1px; }
 
 .jks .product_num110 {
   float: right;
-  width: 199px;
+  width: 18.773%;
   margin-top: -6px; }
 
 .jks .product_num111 {
   float: right;
-  width: 215px;
-  margin-top: -7px; }
+  width: 20.283%;
+  margin-top: -6px; }
 
 .jks .product_num112 {
   float: left;
@@ -1272,6 +1269,15 @@ div.wpcf7-validation-errors {
   height: 500px;
   top: 79px;
   left: 98px; }
+
+.jks .catidw25 {
+  background-image: url("/wp-content/uploads/apartments/126-20-1-1-plan.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  top: 64px;
+  left: 115px;
+  width: 71.132%; }
 
 .jks .nf-block {
   display: -webkit-box;
