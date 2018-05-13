@@ -130,17 +130,20 @@
         background-color: #fff;
         position: absolute;
         z-index: 100;
-        padding: 10px;
-        width: 180px;
+        padding: 25px;
+        width: 210px;
         top: 20px;
         right: -100px;
-        box-shadow: 0 0 3px #000;
-        color: #000
+        box-shadow: 0 0 5px #000;
+        color: #000;
+        border-radius: 5px;
+        line-height: 1.2;
     }
 
     .product_num1 .tov_izb_info strong {
         display: block;
         font-size: 16px;
+        line-height: 1.2;
         border-bottom: 1px dashed #000;
         padding-bottom: 2px;
         margin-bottom: 2px;
@@ -152,8 +155,8 @@
     }
 
     .info_info {
-        font-style: italic;
         font-size: 12px;
+        line-height: 1.4;
         margin-top: 7px;
         color: #000
     }
