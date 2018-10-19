@@ -303,6 +303,10 @@ textarea.wp-editor-area {
   &.light {
     color: $light-color;
   }
+
+  &.has-offset {
+    margin: 30px auto;
+  }
 }
 
 .section-title-sm {
@@ -315,6 +319,14 @@ textarea.wp-editor-area {
 
   &.text-left {
     text-align: left;
+  }
+}
+.section-title-xs {
+  @extend .section-title-md;
+  font-size: rem(26, 13);
+
+  &.has-offset {
+    margin: 30px auto;
   }
 }
 
@@ -865,6 +877,33 @@ div.wpcf7-validation-errors {
   }
 }
 
+.jks-address-list {
+  margin: 30px auto;
+}
+
+.jks-address-list-item {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .icon {
+    width: 32px;
+    height: 52px;
+    margin-right: 12px;
+  }
+
+  div {
+    padding-top: 32px;
+  }
+}
+
+.text-block-md {
+  &.light {
+    color: $grayish-color;
+  }
+}
+
 @import "css/jks-apartments.scss";
 
 .vc_column_container {
@@ -877,7 +916,8 @@ div.wpcf7-validation-errors {
   }
 }
 
-.blog {
+.blog,
+.archive {
   .top_panel_style_1.with_bg_image.header_fullheight .logo {
     margin-bottom: 0;
   }
@@ -940,6 +980,41 @@ div.wpcf7-validation-errors {
   }  
 }
 
+.post_featured {
+  &.hover_title {
+    &:hover {
+      .post-hover-title {
+        opacity: 1;
+      }
+    }
+  }
+
+  .post-hover-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: $light-color2;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    text-align: center;
+
+    span {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%) scale(0.5,0.5);
+      color: $light-color2;
+      font-size: 50px;
+      line-height: 1.2;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+  }
+}
+
+
 @media (min-width: 1440px) and (max-width: 1679px) {
   $baseFontSize : 13;
 }
@@ -964,8 +1039,32 @@ div.wpcf7-validation-errors {
   $baseFontSize : 8;
 }
 
+@media only screen and (min-width: 992px){
+  .text-block-md {
+    max-width: 675px;
+    margin: 100px auto 130px auto;
+    text-align: center;
+  }
 
+  .section-title-md,
+  .section-title-xs {
+    &.has-offset {
+      margin: 92px auto 80px auto;
+    }
+  }
 
+  .jks-address-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .jks-address-list-item {
+    margin: 0 50px 50px 50px;
+  }
+}
+
+@import "css/header";
 
 
 

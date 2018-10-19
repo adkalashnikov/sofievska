@@ -50,7 +50,7 @@
 	}
 
 	// Featured image
-	if ( !get_query_var('windsor_featured_showed', false) )
+	if ( !get_query_var('windsor_featured_showed', false) && ( 'post' !== get_post_type()) )
 		windsor_show_post_featured();
 
 	// Title and post meta
