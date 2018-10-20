@@ -390,6 +390,34 @@ textarea.wp-editor-area {
       }
     }
   }
+
+  .news-section {
+    .section-title {
+      color: $dark-color;
+      margin-bottom: 28px;
+    }
+
+    h4 {
+      a {
+        color: $dark-color;
+
+        &:hover {
+          color: $dark-color;
+        }
+      }
+    }
+
+    .sc_blogger_item {
+      &:hover {
+        background: $danger-color;
+      }
+
+      .sc_blogger_item_title {
+        overflow: hidden;
+        max-height: 128px;
+      }
+    }
+  }
 }
 
 .section-company {
@@ -1013,7 +1041,6 @@ div.wpcf7-validation-errors {
     }
   }
 }
-
 
 @media (min-width: 1440px) and (max-width: 1679px) {
   $baseFontSize : 13;
