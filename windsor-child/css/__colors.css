@@ -9058,7 +9058,7 @@ blockquote, mark, ins, .logo_text, .top_panel_title_2_text, .post_price.price, .
 }
 
 .scheme_dark.top_panel.with_bg_image:before {
-    background-color: rgba(7, 8, 17, 0.7)
+    background-color: transparent;
 }
 
 .scheme_dark .top_panel .slider_engine_revo .slide_subtitle {
