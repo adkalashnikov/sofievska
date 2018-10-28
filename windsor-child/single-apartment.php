@@ -106,7 +106,7 @@ echo esc_attr(windsor_get_theme_option('color_scheme'));
                                                             <div class="wpb_raw_code wpb_content_element wpb_raw_html">
                                                                 <div class="wpb_wrapper">
                                                                     <img class="alignleft size-full wp-image-898"
-                                                                         src="http://kden.tk/sofievska/wp-content/uploads/2018/05/rassrochka.png"
+                                                                         src="http://jksfera.com.ua/sofievska/wp-content/uploads/2018/05/rassrochka.png"
                                                                          alt="" width="428" height="98">
                                                                     <div class="vc_row-full-width vc_clearfix"></div>
                                                                 </div>
